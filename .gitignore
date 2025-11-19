@@ -1,0 +1,12 @@
+# Ignore cache and git metadata
+.cache/
+.git/
+
+# Project directories you don't want tracked
+build/
+docs/
+
+CMakeLists.txt
+compile_commands.json
+
+!build/compile_commands.json
