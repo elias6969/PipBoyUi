@@ -1,9 +1,6 @@
 #version 330 core
 
-layout (location = 0) in vec4 vertex; 
-// vertex.xy  = position
-// vertex.zw  = texture coordinates
-
+layout (location = 0) in vec4 vertex;
 out vec2 TexCoords;
 
 uniform mat4 projection;
